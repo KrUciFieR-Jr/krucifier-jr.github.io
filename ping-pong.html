@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Karthik Nair</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Krucifier_Jr</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	
+	<!-- +++++ Post +++++ -->
+	<div id="white">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<p><img src="assets/img/user.jpg" width="50px" height="50px"> <ba>Karthik Nair</ba></p>
+					<p><bd>March 27, 2017</bd></p>
+					<h4>Deep Reinforcement Learning(Q-Learning)</h4>
+					<p><img class="img-responsive" src="assets/img/portfolio/ping-pong-blog.png" alt=""></p>
+					<br>
+					<p>Deep Learning was first seen in 1965, when a paper related to multilayer perceptron was published by Ivakhneno and Lap was published. Fast Forward to 2015 (Yaa just recently) Google published <b>Tensorflow</b> one of amazing frameworks i have ever seen, it not only enables you to manipulate data in 3-D but also provides flexibility to handle data at a much larger level</p>
+					<h1>Problem Statement</h1>
+					<p>Ping-Pong is a thing which seriously 90's kid would remember.We all have played this in a nintendo at one of our friend's place( ofcourse you would never have one ....). Well, Computer Scientist took it to whole different level.They thought why dont we assign one player as a bot which would <b>learn</b> from the other bot which they call <b>Evil AI</b>. The catch here in this setup is Evil AI is perfect i.e the ball would always hit the center of its pad.</p>
+					<p>We have to figure out an algorithm which beats the Evil AI (Ofcourse! there is a loophole) </p>
+					<h1>Approach</h1>
+					<p><b>What is Reinforcement Learning ?:</b> Lets take an example , you have a dog named Pablo(He is a BoneLord).You have taken the responsibility to train Pablo.As a normal trainner what would you do ?
+					You would give Pablo a biscuit whenever he does a good job and punish him when he does a bad one.</p>
+					<p>Thats how we roll here , our Algorithm will be trained in a Agent Environment Loop and it will reward the bot if it tries to counter the AI and depreciated when it moves away from its goal as a result our bot gets better over time.</p>
+					<p><b>How we apply Deep Learning ?:</b> We will be taking inputs in form of pixel from the screen and analyze it in Convultional Neurak Networks.We will be setting an Intial Epsilon(starting state ) and a Final Epsilon(final state).Activation function used in this case is Rectified Linear Unit (ReLU) as we have to predict output which is greater than one.So as we procced in processing the Convultional Neural Network we get an output tensor and we will compare this output tensor of this frame with the output tensor of previous frame and we will reward or depreciate as per the performance of the bot.Tensorflow makes such complex task easy to handle checkout my explaination of<a href=""> Tensorflow</a></p>
+					<h1>Conclusion</h1>
+					<p>As the game proceeds the bot which we created try to match the Evil AI and at some point it will try to place ball at one of corner of <b>opposite side(Loophole!!)</b>. Remember the Evil AI was programmed in such a way that the ball should hit middle of its pad but if bot places it into one of corner then it cannot play further and thats how you beat the Evil AI.</p>
+					<br>
+					<p>Thank you for Reading ! Hope you like it.</p>
+					<p>Peace Out !!!<img src="assets/img/portfolio/spock.png"></p>
+					<p><bt>TAGS: <a href="#">Deep Learning</a> - <a href="#">Reinforcement Learning</a>- <a href="#">Tensorflow</a>- <a href="#">Convolutional Neural Networks</a></bt></p>
+					<hr>
+					<p><a href="blog.html"># Back</a></p>
+				</div>
+
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /white -->
+	
+	
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>No place like 127.0.0.1</h4>
+					<p>
+						A/02, Kanya<br/>
+						Srishti Sector 5<br>
+						Mira Road(East)<br>
+						Thane-401107
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>My Links</h4>
+					<p>
+						<a href="https://www.facebook.com/kartik.nair.161">Facebook</a><br/>
+						<a href="https://www.instagram.com/krucifier_jr/">Instagram</a><br/>
+						<a href="https://github.com/KrUciFieR-Jr">Github</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>Contact Me !</h4>
+					<p>Whatsapp - +91-9167967193</p>
+					<p>Gmail - kartiknair820@gmail.com</p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
